@@ -2,7 +2,7 @@ module Ruboty
   module Handlers
     class BurnupChart < Base
       on(
-        /burnup|burnup_chart/i,
+        /(burnup|burnup_chart)\z/,
         name: 'burnup_chart',
         description: 'show image of burnup chart'
       )

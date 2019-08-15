@@ -89,7 +89,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chrono
   highline
   mini_magick
   pry

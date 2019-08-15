@@ -13,3 +13,9 @@
 
 # setting file
 .env
+
+# cache file
+/profile/*
+!.gitkeep
+/img/*
+!.gitkeep
