@@ -1,0 +1,15 @@
+# For Mac
+.DS_Store
+
+# vim backup file
+*.swp
+
+# Rubymine
+.idea/*
+
+# Ignore bundler config.
+/.bundle
+/vendor/bundle
+
+# setting file
+.env
