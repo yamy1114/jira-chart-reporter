@@ -6,6 +6,7 @@ Jira Sprint Report を slack に通知するツールです
 1. 事前準備
   - google chrome のインストール
   - ImageMagick のインストール
+  - Redis のインストール
 2. ライブラリのインストール
 ```
 bundle install --path vendor/bundle

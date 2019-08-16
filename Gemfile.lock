@@ -45,6 +45,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     rake (12.3.3)
+    redis (4.1.2)
+    redis-namespace (1.6.0)
+      redis (>= 3.0.4)
     ruboty (1.3.0)
       activesupport
       bundler
@@ -55,6 +58,10 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
     ruboty-slack_rtm (3.1.1)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
@@ -95,6 +102,7 @@ DEPENDENCIES
   retry-handler!
   ruboty
   ruboty-cron
+  ruboty-redis
   ruboty-slack_rtm
   selenium-webdriver
   webdrivers
