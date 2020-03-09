@@ -26,7 +26,7 @@ module Ruboty
           # 入力フォームへの値の入力
           LOGIN_FACTORS.each do |factor|
             Proc.new do
-              input_element = @driver.find_element(xpath: "//input[@type='#{factor[:type]}' and @aria-label='#{factor[:label]}']")
+              input_element = @driver.find_element(xpath: "//input[@type='#{factor[:type]}']")
               input_text = ask(factor[:label] + ': ') do |q|
                 q.echo = '*' if factor[:type] == 'password'
               end
