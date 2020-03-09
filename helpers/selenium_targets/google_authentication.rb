@@ -6,8 +6,8 @@ module Ruboty
         USE_ANOTHER_ACCOUNT_BUTTON_TEXT = '別のアカウントを使用'
         LOGIN_FACTORS = [
             { type: 'email',    label: 'メールアドレスまたは電話番号' },
-            { type: 'password', label: 'パスワードを入力'             },
-            { type: 'tel',      label: 'コードを入力'                 }
+            { type: 'password', label: 'パスワードを入力'             }#,
+#            { type: 'tel',      label: 'コードを入力'                 }
         ]
  
         def initialize(driver)
