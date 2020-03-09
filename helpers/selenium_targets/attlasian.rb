@@ -6,7 +6,7 @@ module Ruboty
         BURNUP_CHART_PAGE_URL            = 'https://nttcom.atlassian.net/secure/RapidBoard.jspa?rapidView=34&projectKey=BEAR&view=reporting&chart=burnupChart'
         BURNUP_CHART_ELEMENT_ID          = 'ghx-sprint-burnup-report'
         GOOGLE_SIGNIN_BUTTON_ELEMENT_ID  = 'google-signin-button'
-        SPRINT_GOAL_ELEMENT_CLASS           = 'ghx-sprint-goal'
+        SPRINT_GOAL_ELEMENT_CLASS        = 'ghx-sprint-goal'
         BURNUP_CHART_DRAWING_WAIT_SECOND = 5
 
         def initialize(driver)

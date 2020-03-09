@@ -25,3 +25,5 @@ bundle exec ruboty --dotenv -l main.rb
 burndown chart 取得のための Jira へのログインは Selenium で起動した headless Chrome 
 上で二段階認証を行います  
 初回ログイン時やセッション切れの場合、ログイン情報を求められるためターミナルから必要な情報を入力してください
+
+うまくログインできない場合、作成された profile ディレクトリを一度削除するとうまくいく可能性があります
